@@ -32,6 +32,7 @@
 }
 
 .header {
+  height: 100vh;
   min-height: 600px;
   max-height: 756px;
   background-color: #f2f2f2;
@@ -52,6 +53,10 @@
   top: 30px;
   left: 64px;
   z-index: 1;
+}
+
+.logo_place_footer {
+
 }
 
 .header__title {
@@ -83,7 +88,7 @@
 }
 
 .header__main-illustration {
-  width: 756px;
+  width: 765px;
   height: 608px;
   position: absolute;
   bottom: 0;
@@ -122,15 +127,9 @@
 
 
 /* DESCRIPTION START===========================================*/
-/*div, section {*/
-/*  border: 1px solid red;*/
-/*}*/
-
-
 .description {
-  margin: 0 auto;
-  padding: 100px 0 0 0;
-
+  margin: 100px auto 0 auto;
+  padding: 0;
 }
 
 .two-columns {
@@ -178,16 +177,12 @@
   font-size: 24px;
   font-weight: 600;
 }
-
-
-
 /* DESCRIPTION END===========================================*/
 
-/* DESCRIPTION START===========================================*/
+/* TECHNiQUES START===========================================*/
 .techniques {
-  margin: 0 auto;
+  margin: 100px auto 0 auto;
   width: 80%;
-  padding-top: 100px;
 }
 
 .section-title {
@@ -201,13 +196,13 @@
 }
 
 .section-subtitle {
-  width: 60vw;
+  width: 60%;
   text-align: center;
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
-  margin: 0 auto;
-  padding: 20px 0 0 0;
+  margin: 20px auto 0 auto;
+  padding: 0;
 }
 
 .cards {
@@ -254,13 +249,12 @@
   padding: 0;
 
 }
-
-/* DESCRIPTION END===========================================*/
+/* TECHNiQUES END===========================================*/
 
 /* VIDEO START==============================================*/
 .video {
   width: 100%;
-  margin: 0 auto;
+  margin: 100px auto 0 auto;
 }
 
 .video__iframes {
@@ -318,6 +312,7 @@
   top: 50%;
   right: 48px;
 }
+
 /* OAKLEY END===========================================*/
 
 /* FEYNMAN END===========================================*/
@@ -327,6 +322,7 @@
   padding: 100px 0 0 0;
   background-color: #f2f2f2;
 }
+
 /* FEYNMAN END===========================================*/
 
 /* DIGITS START==============================================*/
@@ -463,6 +459,7 @@
   text-decoration: none;
   color: #2f80ed;
 }
+
 /* KHAN END==============================================*/
 
 /* KAUFMAN START==============================================*/
@@ -480,6 +477,7 @@
   right: -210px;
   z-index: 0;
 }
+
 /* KAUFMAN END==============================================*/
 
 .resources {
