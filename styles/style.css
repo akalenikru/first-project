@@ -56,7 +56,9 @@
 }
 
 .logo_place_footer {
-
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 .header__title {
@@ -276,7 +278,7 @@
 /* OAKLEY START===========================================*/
 .feynman {
   width: 100%;
-  margin: 0 auto;
+  margin:0 auto;
   padding: 100px 0 0 0;
   background: #f2f2f2 url("../images/feinman.png") no-repeat bottom left;
   height: 890px;
@@ -327,7 +329,8 @@
 
 /* DIGITS START==============================================*/
 .digits {
-  padding: 100px 0;
+  padding: 0;
+  margin: 100px auto 100px auto;
 }
 
 .table {
@@ -481,8 +484,8 @@
 /* KAUFMAN END==============================================*/
 
 .resources {
-  padding-top: 100px;
-  padding-bottom: 217px;
+  padding-top: 0;
+  margin: 100px auto 217px auto;
 }
 
 .resources__logo-zone {
@@ -497,13 +500,13 @@
   background-color: #000000;
   color: #FFFFFF;
   margin: 0 auto;
+  padding: 60px 0 40px 0;
 }
 
 .footer__columns {
   width: 90%;
   margin: 0 auto;
-  padding-top: 60px;
-  padding-bottom: 40px;
+  padding: 0;
   display: flex;
   justify-content: space-between;
   box-sizing: border-box;
