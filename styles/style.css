@@ -31,12 +31,7 @@
   color: #000000;
 }
 
-.page_margin-standard {
-  margin-top: 100px;
-}
-
 .header {
-  height: 100vh;
   min-height: 600px;
   max-height: 756px;
   background-color: #f2f2f2;
