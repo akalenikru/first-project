@@ -19,34 +19,11 @@
   font-weight: 600;
 }
 
-.page {
-  min-width: 1100px;
-  /* мы ещё не умеем делать мобильную версию сайта, */
-  /* поэтому выше установлена минимальная ширина страницы */
-  max-width: 1600px;
-  /* выше установили ограничение по максимальной ширине */
-  margin: 0 auto;
-  /* выше для экранов больше 1600px отцентрировали весь контент */
-  font-family: 'Inter', Arial, sans-serif;
-  color: #000000;
-}
 
-.header {
-  height: 100vh;
-  min-height: 600px;
-  max-height: 756px;
-  background-color: #f2f2f2;
-  position: relative;
-  display: flex;
-  align-items: center;
-  overflow: hidden;
-  /* выше установили ограничения для секции */
-}
 
-.logo {
-  width: 183px;
-  height: 32px;
-}
+
+
+
 
 .logo_place_header {
   position: absolute;
@@ -143,17 +120,9 @@
 
 
 /* DESCRIPTION START===========================================*/
-.description {
-  margin: 0 auto;
-  padding: 100px 0 0 0;
-}
 
-.two-columns {
-  display: flex;
-  justify-content: space-between;
-  width: 80%;
-  margin: 0 auto;
-}
+
+
 
 .two-columns__brief {
   padding: 0;
@@ -196,40 +165,13 @@
 /* DESCRIPTION END===========================================*/
 
 /* TECHNiQUES START===========================================*/
-.techniques {
-  margin: 0 auto;
-  padding: 100px 0 0 0;
-  width: 80%;
-}
 
-.section-title {
-  width: 60%;
-  text-align: center;
-  line-height: 1.15;
-  font-size: 60px;
-  font-weight: 600;
-  margin: 0 auto;
-  padding: 0;
-}
 
-.section-subtitle {
-  width: 60%;
-  text-align: center;
-  line-height: 34px;
-  font-size: 24px;
-  font-weight: normal;
-  margin: 20px auto 0 auto;
-  padding: 0;
-}
 
-.cards {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  width: 920px;
-  margin: 0 auto;
-  justify-content: space-between;
-}
+
+
+
+
 
 .cards__item {
   width: 240px;
@@ -269,11 +211,6 @@
 /* TECHNiQUES END===========================================*/
 
 /* VIDEO START==============================================*/
-.video {
-  width: 100%;
-  margin: 0 auto;
-  padding: 100px 0 0 0;
-}
 
 .video__iframes {
   display: flex;
@@ -292,15 +229,7 @@
 /* VIDEO END===========================================*/
 
 /* OAKLEY START===========================================*/
-.feynman {
-  width: 100%;
-  margin:0 auto;
-  padding: 100px 0 0 0;
-  background: #f2f2f2 url("../images/feinman.png") no-repeat bottom left;
-  height: 890px;
-  box-sizing: border-box;
-  position: relative;
-}
+
 
 .feynman__title {
   line-height: 1.15;
@@ -334,29 +263,13 @@
 /* OAKLEY END===========================================*/
 
 /* FEYNMAN END===========================================*/
-.oakley {
-  width: 100%;
-  margin: 0 auto;
-  padding: 100px 0 0 0;
-  background-color: #f2f2f2;
-}
+
 
 /* FEYNMAN END===========================================*/
 
 /* DIGITS START==============================================*/
-.digits {
-  padding: 100px 0 100px 0;
-  margin: 0 auto;
-}
 
-.table {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  width: 1100px;
-  margin: 0 auto;
-}
+
 
 
 .table__cell {
@@ -404,12 +317,7 @@
 /* DIGITS END==============================================*/
 
 /* KHAN START==============================================*/
-.khan {
-  background-color: #f2f2f2;
-  margin: 0 auto;
-  padding: 100px 0 0 0;
-  width: 100%;
-}
+
 
 .khan__container {
   width: 80%;
@@ -482,12 +390,7 @@
 /* KHAN END==============================================*/
 
 /* KAUFMAN START==============================================*/
-.kaufman {
-  background-color: #000000;
-  padding: 90px 0 90px 0;
-  position: relative;
-  overflow: hidden;
-}
+
 
 .kaufman__triangle {
   position: absolute;
@@ -498,10 +401,7 @@
 
 /* KAUFMAN END==============================================*/
 
-.resources {
-  padding: 100px 0 217px 0;
-  margin: 0 auto;
-}
+
 
 .resources__logo-zone {
   display: flex;
@@ -511,12 +411,7 @@
   margin: 80px auto 0;
 }
 
-.footer {
-  background-color: #000000;
-  color: #FFFFFF;
-  margin: 0 auto;
-  padding: 60px 0 40px 0;
-}
+
 
 .footer__columns {
   width: 90%;
