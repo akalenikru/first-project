@@ -89,6 +89,8 @@
   color: #2f80ed;
 }
 
+
+
 .header__main-illustration {
   width: 765px;
   height: 608px;
@@ -125,6 +127,18 @@
   }
 }
 
+.clarification:hover {
+  animation: clarification-animation linear 0.5s forwards;
+}
+
+@keyframes clarification-animation {
+  from{
+    opacity: 1;
+  }
+  to {
+    opacity: 0.5;
+  }
+}
 /* и элемента с модификатором вида ключ-значение */
 
 
