@@ -144,8 +144,8 @@
 
 /* DESCRIPTION START===========================================*/
 .description {
-  margin: 100px auto 0 auto;
-  padding: 0;
+  margin: 0 auto;
+  padding: 100px 0 0 0;
 }
 
 .two-columns {
@@ -197,7 +197,8 @@
 
 /* TECHNiQUES START===========================================*/
 .techniques {
-  margin: 100px auto 0 auto;
+  margin: 0 auto;
+  padding: 100px 0 0 0;
   width: 80%;
 }
 
@@ -270,7 +271,8 @@
 /* VIDEO START==============================================*/
 .video {
   width: 100%;
-  margin: 100px auto 0 auto;
+  margin: 0 auto;
+  padding: 100px 0 0 0;
 }
 
 .video__iframes {
@@ -343,8 +345,8 @@
 
 /* DIGITS START==============================================*/
 .digits {
-  padding: 0;
-  margin: 100px auto 100px auto;
+  padding: 100px 0 100px 0;
+  margin: 0 auto;
 }
 
 .table {
@@ -405,7 +407,7 @@
 .khan {
   background-color: #f2f2f2;
   margin: 0 auto;
-  padding: 0;
+  padding: 100px 0 0 0;
   width: 100%;
 }
 
@@ -482,8 +484,7 @@
 /* KAUFMAN START==============================================*/
 .kaufman {
   background-color: #000000;
-  padding-top: 90px;
-  padding-bottom: 90px;
+  padding: 90px 0 90px 0;
   position: relative;
   overflow: hidden;
 }
@@ -498,8 +499,8 @@
 /* KAUFMAN END==============================================*/
 
 .resources {
-  padding-top: 0;
-  margin: 100px auto 217px auto;
+  padding: 100px 0 217px 0;
+  margin: 0 auto;
 }
 
 .resources__logo-zone {
