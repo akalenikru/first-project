@@ -1,0 +1,8 @@
+.cards__item {
+  width: 240px;
+  box-sizing: border-box;
+}
+
+.cards__item:last-child {
+  margin-right: 340px;
+}

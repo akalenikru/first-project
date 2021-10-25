@@ -1,0 +1,12 @@
+.clarification:hover {
+  animation: clarification-animation linear 0.5s forwards;
+}
+
+@keyframes clarification-animation {
+  from{
+    opacity: 1;
+  }
+  to {
+    opacity: 0.5;
+  }
+}
